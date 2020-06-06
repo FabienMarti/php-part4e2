@@ -9,9 +9,9 @@
     <p>
         <?php
             function getMyString($myString){
-            echo($myString);
+            return $myString;
             }
-            getMyString('WOW SALUT !!!');
+            echo(getMyString('WOW SALUT !!!'));
         ?>
     </p>
 </body>
